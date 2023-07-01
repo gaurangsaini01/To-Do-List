@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>What Are Your Plans For Today ?</h2>
+      <form class="form">
+        <input type="text" value="" class="searchbox" placeholder="Enter Your Task :)" />
+        <input type="submit" class="btn" value="ADD TASK !" />
+      </form>
+      <ul class="list-items">
+        <li class="list-item">
+          <p>Do This Do That</p>
+          <div class="buttons">
+            <button class="completed button">Complete</button>
+            <button class="remove button">Remove</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
